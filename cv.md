@@ -4,7 +4,7 @@
 
 - tel: **+972-52-468-37-44**
 - E-mail: **SoloSoft2000@mail.ru**
-- Telegram: **t.me/EugenSolo**
+- Telegram: **https://t.me/EugenSolo**
 
 ## About me:
 
