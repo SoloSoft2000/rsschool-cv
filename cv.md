@@ -22,8 +22,8 @@ I am 45 years old. At the age of 18-27 I worked as a programmer for FoxPro and V
 
 ## Experience
 
-_1994-2001_ - Development and introduction of financial systems
-_2001-2005_ - System Administrator
+- _1994-2001_ - Development and introduction of financial systems
+- _2001-2005_ - System Administrator
 
 ## Languages
 
