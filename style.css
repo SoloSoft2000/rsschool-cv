@@ -1,3 +1,98 @@
-h1 {
-	color: blue;
+* {
+  box-sizing: border-box;
 }
+
+header{
+	width: 100%; 
+	height: 70px; 
+	margin: 0;
+	position: relative; 
+	background-color: #444444;
+}
+
+nav{
+	width: 100%; 
+	height: 50px; 
+	margin: 0;
+	position: relative; 
+	background-color: #444444;
+}
+
+.logo {
+	float: right;
+	padding: 5px;
+}
+
+.myName {
+	padding: 10px;
+	padding-left: 50px;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  height: 50px;
+}
+
+.navbar li {
+	height: auto;
+	float: left;
+	list-style: none;
+	padding: 0 5px;
+	margin: 0;
+	background-color:#444444;
+	text-align: center;
+	justify-content: center;
+	 font: normal bold 13px/1em Arial, Verdana, Helvetica;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+	border: 1px solid red;
+}
+
+.navbar a:hover {
+background-color: #555555;
+}
+
+
+img {
+	height: 50px;
+}
+
+header img {
+	height: 60px;
+	background-color:white;
+	padding: 5px;
+	border: 1px solid rebeccapurple;
+}
+header h1 {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	color: white;
+	
+}
+
+body {
+  max-width: 1024px;
+  min-width: 600px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  padding: 2rem;
+  background: white;
+}
+
+
+div.contentPage {
+  max-width: 1024px;
+  margin: auto;
+  border: black solid 1px;
+  display: flex;
+  box-shadow: 1px 40px 80px 8px rgba(0,0,0,0.62);
+}
+
+
