@@ -64,10 +64,13 @@ img {
 }
 
 header img {
-	height: 60px;
+	height: 100px;
+	z-index: 99;
 	background-color:white;
-	padding: 5px;
+	padding: 1px;
+	margin: 5px;
 	border: 1px solid rebeccapurple;
+	position: relative;
 }
 header h1 {
 	display: inline;
@@ -90,8 +93,29 @@ body {
 div.contentPage {
   max-width: 1024px;
   margin: auto;
+  padding: 3px;
   border: black solid 1px;
   box-shadow: 1px 40px 80px 8px rgba(0,0,0,0.62);
 }
 
+.column {
+	float: left;
+	width: 33%;
+	padding: 0 10px;
+  }
 
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
+  height: 250px;
+}
