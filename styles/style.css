@@ -91,7 +91,6 @@ div.contentPage {
   max-width: 1024px;
   margin: auto;
   border: black solid 1px;
-  display: flex;
   box-shadow: 1px 40px 80px 8px rgba(0,0,0,0.62);
 }
 
