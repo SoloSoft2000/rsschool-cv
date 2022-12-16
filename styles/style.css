@@ -3,18 +3,18 @@
 }
 
 header{
-	width: 100%; 
-	height: 70px; 
+	width: 100%;
+	height: 70px;
 	margin: 0;
-	position: relative; 
+	position: relative;
 	background-color: #444444;
 }
 
 nav{
-	width: 100%; 
-	height: 50px; 
+	width: 100%;
+	height: 50px;
 	margin: 0;
-	position: relative; 
+	position: relative;
 	background-color: #444444;
 }
 
@@ -23,7 +23,7 @@ nav{
 	padding: 5px;
 }
 
-.myName {
+.myname {
 	padding: 10px;
 	padding-left: 50px;
 }
@@ -77,7 +77,7 @@ header h1 {
 	margin: 0;
 	padding: 0;
 	color: white;
-	
+
 }
 
 body {
@@ -90,7 +90,7 @@ body {
 }
 
 
-div.contentPage {
+div.content_page {
   max-width: 1024px;
   margin: auto;
   padding: 3px;
@@ -100,11 +100,11 @@ div.contentPage {
 
 .column {
 	float: left;
-	width: 33%;
-	padding: 0 10px;
+	width: 30%;
+	padding: 5px 10px;
   }
 
-.row {margin: 0 -5px;}
+.row {margin: 10px;}
 
 .row:after {
   content: "";
@@ -112,10 +112,47 @@ div.contentPage {
   clear: both;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+.about_me {
+  margin: 20px;
+}
+
+.card, .big_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: left;
   background-color: #f1f1f1;
-  height: 250px;
+}
+
+.big_card {
+  margin: 20px;
+}
+
+.card {
+  min-height: 275px;
+}
+
+.footer_box {
+	width: 100%;
+	height: 70px;
+	margin: 0;
+	position: relative;
+	background-color: white;
+  display: flex;
+}
+
+.link_gh {
+  padding: 10px;
+}
+
+.link_curs {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-end;
+}
+
+.year {
+  padding: 20px;
+  font-size: large;
+  font-weight: bolder;
 }
