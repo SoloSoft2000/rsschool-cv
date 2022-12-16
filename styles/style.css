@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	margin: 0;
+	position: relative;
+	background-color: #444444;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	position: relative;
+	background-color: #444444;
+}
+
+.logo {
+	float: right;
+	padding: 5px;
+}
+
+.myname {
+	padding: 10px;
+	padding-left: 50px;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  height: 50px;
+}
+
+.navbar li {
+	height: auto;
+	float: left;
+	list-style: none;
+	padding: 0 5px;
+	margin: 0;
+	background-color:#444444;
+	text-align: center;
+	justify-content: center;
+	 font: normal bold 13px/1em Arial, Verdana, Helvetica;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+	border: 1px solid red;
+}
+
+.navbar a:hover {
+background-color: #555555;
+}
+
+
+img {
+	height: 50px;
+}
+
+header img {
+	height: 100px;
+	z-index: 99;
+	background-color:white;
+	padding: 1px;
+	margin: 5px;
+	border: 1px solid rebeccapurple;
+	position: relative;
+}
+header h1 {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	color: white;
+
+}
+
+body {
+  max-width: 1024px;
+  min-width: 600px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  padding: 2rem;
+  background: white;
+}
+
+
+div.content_page {
+  max-width: 1024px;
+  margin: auto;
+  padding: 3px;
+  border: black solid 1px;
+  box-shadow: 1px 40px 80px 8px rgba(0,0,0,0.62);
+}
+
+.column {
+	float: left;
+	width: 30%;
+	padding: 5px 10px;
+  }
+
+.row {margin: 10px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about_me {
+  margin: 20px;
+}
+
+.card, .big_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
+}
+
+.big_card {
+  margin: 20px;
+}
+
+.card {
+  min-height: 275px;
+}
+
+.footer_box {
+	width: 100%;
+	height: 70px;
+	margin: 0;
+	position: relative;
+	background-color: white;
+  display: flex;
+}
+
+.link_gh {
+  padding: 10px;
+}
+
+.link_curs {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-end;
+}
+
+.year {
+  padding: 20px;
+  font-size: large;
+  font-weight: bolder;
+}
