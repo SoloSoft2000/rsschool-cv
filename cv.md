@@ -2,7 +2,6 @@
 
 ## My contact:
 
-- tel: **+972-52-468-37-44**
 - E-mail: **SoloSoft2000@mail.ru**
 - Telegram: **https://t.me/EugenSolo**
 
@@ -15,7 +14,7 @@ I am 45 years old. At the age of 18-27 I worked as a programmer for FoxPro and V
 
 ## Skills:
 
-- HTML
+- HTML (in the process of studying)
 - Java (basic knowledge), C++ (basic knowledge), FoxPro, VisualBasic
 - SQL (MySQL, SQLite)
 - Windows OS, Linux, FreeBSD
